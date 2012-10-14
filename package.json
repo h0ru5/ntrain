@@ -1,0 +1,18 @@
+{
+	"name" : "ntrain",
+	"author" : "h0ru5 <johannes.hund@gmail.com>",
+	"version" : "0.0.1alpha",
+	"description" : "re-implementation of Rugbears training based on node.js",
+	"repository" : {
+		"type" : "git",
+		"url" : "https://github.com/h0ru5/ntrain.git"
+	}
+	"dependencies" : {
+		"express" : "*",
+		"express-resource" : "*",
+		"express-resource-mongoose" : "*"
+	}
+	"scripts" : {
+		"start" : "node app"
+	}
+}
