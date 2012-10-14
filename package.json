@@ -8,9 +8,10 @@
 		"url" : "https://github.com/h0ru5/ntrain.git"
 	},
 	"dependencies" : {
-		"express" : "*",
+		"express-mongoose-resource" : "*",
 		"express-resource" : "*",
-		"express-resource-mongoose" : "*"
+		"express" : "3.x",
+		"mongoose" : "*"
 	},
 	"scripts" : {
 		"start" : "node app"
