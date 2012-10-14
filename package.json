@@ -6,12 +6,12 @@
 	"repository" : {
 		"type" : "git",
 		"url" : "https://github.com/h0ru5/ntrain.git"
-	}
+	},
 	"dependencies" : {
 		"express" : "*",
 		"express-resource" : "*",
 		"express-resource-mongoose" : "*"
-	}
+	},
 	"scripts" : {
 		"start" : "node app"
 	}
