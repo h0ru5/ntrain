@@ -1,5 +1,4 @@
-function make(Schema) {
-return new Schema(
+exports.schema=
 {
 	"name" : String,
 	"email" : String,
@@ -10,7 +9,4 @@ return new Schema(
 	"votes" :
 		[{"value" : String, "count" : Number}]
 	
-});
-}
-
-exports.make=make;
+};

@@ -1,14 +1,14 @@
-var express = require('express'),
-resource = require('express-resource'),
-resource = require('express-mongoose-resource');
-app = express();
+var express = require('express');
+require('express-resource');
+require('express-mongoose-resource');
+var app = express();
 
 var mongoose = require('mongoose');
 var db = mongoose.createConnection('localhost', 'ntrain');
 console.log('Got modules...');
 
 
-var UserSchema = require('./schemas/user.js').make(mongoose.Schema);
+var UserSchema = new mongoose.Schema(require('./schemas/user.js').schema);
 var EventSchema  = new mongoose.Schema(require('./schemas/event.js').schema);
 console.log('Loaded Schemas...');
 
