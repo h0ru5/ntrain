@@ -1,4 +1,4 @@
 ntrain
 ======
 
-generalisation of Rugbears training page using node.js
+generalisation of user rsvp grouping using node.js
